@@ -16,7 +16,7 @@ var renderCloud = function (ctx, x, y, color) {
 
 var getRandomInt = function (min, max) {
   return Math.floor(Math.random() * ((max + 1) - min)) + min;
-}
+};
 
 var getMaxElement = function (arr) {
   var maxElement = arr[0];
